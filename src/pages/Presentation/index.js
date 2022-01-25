@@ -50,6 +50,7 @@ function Presentation() {
     <>
       <DefaultNavbar
         routes={routes}
+        brand="NOVA"
         action={{
           type: "external",
           route: "https://www.creative-tim.com/product/material-kit-react",
@@ -59,7 +60,6 @@ function Presentation() {
         transparent
         light
       />
-
       <MKBox
         minHeight="75vh"
         width="100%"

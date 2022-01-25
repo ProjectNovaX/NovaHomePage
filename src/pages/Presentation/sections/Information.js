@@ -30,6 +30,10 @@ import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 import bgFront from "assets/images/rotating-card-bg-front.jpeg";
 import bgBack from "assets/images/rotating-card-bg-back.jpeg";
 
+// be cool for this.
+// have one side of the card the dash.
+// the other side the messaging / event view
+
 function Information() {
   return (
     <MKBox component="section" py={6} my={6}>
@@ -40,15 +44,15 @@ function Information() {
               <RotatingCardFront
                 color="primary"
                 image={bgFront}
-                icon="touch_app"
+                icon="dashboard"
                 title={
                   <>
-                    Feel the
+                    See upcoming
                     <br />
-                    Material Kit
+                    events
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="All of those important events in your life. In one place. Never double book again."
               />
               <RotatingCardBack
                 color="primary"

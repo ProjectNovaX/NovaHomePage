@@ -88,7 +88,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
       icon={icon}
       href={href}
       route={route}
-      collapse={Boolean(collapse)}
+      collapse={false}
       onMouseEnter={({ currentTarget }) => {
         if (collapse) {
           setDropdown(currentTarget);
