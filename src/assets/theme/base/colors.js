@@ -45,8 +45,8 @@ export default {
   },
 
   primary: {
-    main: "#e91e63",
-    focus: "#e91e63",
+    main: "#ff7f50",
+    focus: "#ff7f50",
   },
 
   secondary: {
@@ -98,8 +98,8 @@ export default {
 
   gradients: {
     primary: {
-      main: "#EC407A",
-      state: "#D81B60",
+      main: "#ff7f50",
+      state: "#fb8c00",
     },
 
     secondary: {
@@ -202,7 +202,7 @@ export default {
 
   badgeColors: {
     primary: {
-      background: "#f8b3ca",
+      background: "#ff7f50",
       text: "#cc084b",
     },
 
@@ -243,7 +243,7 @@ export default {
   },
 
   coloredShadows: {
-    primary: "#e91e62",
+    primary: "#ff7f50",
     secondary: "#110e0e",
     info: "#00bbd4",
     success: "#4caf4f",

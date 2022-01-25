@@ -38,6 +38,7 @@ function Information() {
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
+                color="primary"
                 image={bgFront}
                 icon="touch_app"
                 title={
@@ -50,6 +51,7 @@ function Information() {
                 description="All the MUI components that you need in a development have been re-design with the new look."
               />
               <RotatingCardBack
+                color="primary"
                 image={bgBack}
                 title="Discover More"
                 description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
@@ -65,33 +67,36 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  color="primary"
+                  icon="people"
+                  title="Private Network"
+                  description="Connect and invite only those contacts in your phone. A guest list you can get on board with."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  color="primary"
+                  icon="event"
+                  title="Full Calendar"
+                  description="Fully fledged Calendar with all the features you need."
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  color="primary"
+                  icon="create"
+                  title="Pencil In"
+                  description="We know it's hard getting people together. Pencil in events to get the ball rolling earlier."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  color="primary"
+                  icon="notifications-active-icon"
+                  title="Notification Control"
+                  description="Fine tune notifications to exactly your taste. Only care if the date changes? No problem."
                 />
               </Grid>
             </Grid>
