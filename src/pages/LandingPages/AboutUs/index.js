@@ -38,7 +38,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/concert.jpg";
 
 function AboutUs() {
   return (
@@ -92,7 +92,7 @@ function AboutUs() {
               It&apos;s time to party. Get on it.
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              Join the fastest growing community of absolute legends
+              Join the fastest growing community of people who like to see other people. In person.
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
