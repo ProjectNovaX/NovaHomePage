@@ -31,7 +31,6 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import Information from "pages/LandingPages/AboutUs/sections/Information";
 import Team from "pages/LandingPages/AboutUs/sections/Team";
 import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
 // Routes
 import routes from "routes";
@@ -44,11 +43,12 @@ function AboutUs() {
   return (
     <>
       <DefaultNavbar
+        brand="Anon"
         routes={routes}
         action={{
           type: "external",
           route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          label: "download",
           color: "default",
         }}
         transparent
@@ -129,7 +129,6 @@ function AboutUs() {
         <Information />
         <Team />
         <Featuring />
-        <Newsletter />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

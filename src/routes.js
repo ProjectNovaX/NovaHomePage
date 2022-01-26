@@ -55,7 +55,7 @@ const routes = [
   },
   {
     name: "contact",
-    icon: <Icon>ContactMail</Icon>,
+    icon: <Icon>mail</Icon>,
     route: "/pages/landing-pages/contact-us",
     component: <ContactUs />,
   },
