@@ -32,10 +32,10 @@ export default {
     },
   ],
   menus: [
-    {
-      name: "company",
-      items: [{ name: "about us", href: "https://www.creative-tim.com/presentation" }],
-    },
+    // {
+    //   name: "company",
+    //   items: [{ name: "about us", href: "https://www.creative-tim.com/presentation" }],
+    // },
     {
       name: "help & support",
       items: [{ name: "contact us", href: "https://localhost:3000/contact-us" }],

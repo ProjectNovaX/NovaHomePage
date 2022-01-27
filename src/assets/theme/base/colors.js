@@ -54,9 +54,14 @@ export default {
     focus: "#8f93a9",
   },
 
+  // info: {
+  //   main: "#758BFD",
+  //   focus: "#5e79fd",
+  // },
+
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#27187E",
+    focus: "#3521AB",
   },
 
   success: {
@@ -107,9 +112,14 @@ export default {
       state: "#495361",
     },
 
+    // info: {
+    //   main: "#758BFD",
+    //   focus: "#5e79fd",
+    // },
+
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#27187E",
+      focus: "#3521AB",
     },
 
     success: {
@@ -211,9 +221,14 @@ export default {
       text: "#6c757d",
     },
 
+    // info: {
+    //   background: "#49a3f1",
+    //   text: "#1A73E8",
+    // },
+
     info: {
-      background: "#aecef7",
-      text: "#095bc6",
+      main: "#27187E",
+      focus: "#3521AB",
     },
 
     success: {

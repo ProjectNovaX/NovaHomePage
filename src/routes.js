@@ -40,16 +40,16 @@ Coded by www.creative-tim.com
 import Icon from "@mui/material/Icon";
 
 // Pages
-import AboutUs from "layouts/pages/landing-pages/about-us";
+// import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 
 const routes = [
-  {
-    name: "about",
-    icon: <Icon>dashboard</Icon>,
-    route: "/pages/landing-pages/about-us",
-    component: <AboutUs />,
-  },
+  // {
+  //   name: "about",
+  //   icon: <Icon>dashboard</Icon>,
+  //   route: "/pages/landing-pages/about-us",
+  //   component: <AboutUs />,
+  // },
   {
     name: "contact",
     icon: <Icon>mail</Icon>,

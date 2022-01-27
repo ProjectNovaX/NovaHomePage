@@ -31,7 +31,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/bg-presentation.jpg";
 
 function ContactUs() {
   return (
@@ -39,11 +39,12 @@ function ContactUs() {
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
           routes={routes}
+          brand="anon"
           action={{
             type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
+            route: "https://localhost:3000",
             label: "free download",
-            color: "info",
+            color: "primary",
           }}
         />
       </MKBox>
@@ -82,8 +83,8 @@ function ContactUs() {
           >
             <MKBox
               variant="gradient"
-              bgColor="info"
-              coloredShadow="info"
+              bgColor="primary"
+              coloredShadow="primary"
               borderRadius="lg"
               p={2}
               mx={2}
@@ -95,8 +96,8 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                For further questions please email info@anonapp.com or contact using our contact
+                form.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autocomplete="off">
                 <Grid container spacing={3}>

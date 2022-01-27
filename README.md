@@ -22,9 +22,8 @@ Home page for marketing and distribution.
 Within the download you'll find the following directories and files:
 
 ```
-material-kit-2-react
+anon app
     ├── public
-    │   ├── apple-icon.png
     │   ├── favicon.png
     │   ├── index.html
     │   ├── manifest.json
@@ -83,13 +82,5 @@ material-kit-2-react
 ```
 
 ## Useful Links
-
-- [More products](https://www.creative-tim.com/templates?ref=readme-mkr) from Creative Tim
-
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-mkr) from Creative Tim
-
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-mkr) (earn money)
 
 
