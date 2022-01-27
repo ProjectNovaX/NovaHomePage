@@ -1,4 +1,4 @@
-# [Nova Home Page]
+# Nova Home Page
 
 Home page for marketing and distribution.
 
