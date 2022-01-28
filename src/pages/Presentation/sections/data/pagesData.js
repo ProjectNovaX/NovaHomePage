@@ -1,41 +1,24 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
+import event from "assets/images/ss-event.png";
+import dash from "assets/images/ss-dash.png";
+import messaging from "assets/images/ss-messaging.png";
+import dayView from "assets/images/ss-dayView.png";
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages";
-
+// const imagesPrefix = "src/assets/images";
 export default [
   {
-    image: `${imagesPrefix}/about-us.jpg`,
-    name: "About Us Page",
-    route: "/pages/landing-pages/about-us",
+    image: dash,
+    name: "Dashboard",
   },
   {
-    image: `${imagesPrefix}/contact.jpg`,
-    name: "Contact Us Page",
-    route: "/pages/landing-pages/contact-us",
+    image: dayView,
+    name: "Calendar",
   },
   {
-    image:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg",
-    name: "Sign In Page",
-    route: "/pages/authentication/sign-in",
+    image: messaging,
+    name: "Messaging",
   },
   {
-    image: `${imagesPrefix}/author.jpg`,
-    name: "Author Page",
-    route: "/pages/landing-pages/author",
+    image: event,
+    name: "Event Screen",
   },
 ];

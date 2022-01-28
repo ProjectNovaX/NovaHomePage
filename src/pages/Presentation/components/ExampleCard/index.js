@@ -68,14 +68,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
           </svg>
         </MKBox>
       )}
-      <MKBox
-        component="img"
-        src={image}
-        alt={name}
-        width="100%"
-        my="auto"
-        opacity={pro ? 0.6 : 1}
-      />
+      <MKBox component="img" src={image} alt={name} width="50%" my="auto" opacity={0.9} />
     </MKBox>
   );
 
