@@ -25,7 +25,7 @@ import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 
 // Images
-import macbook from "assets/images/macbook.png";
+import iphone from "assets/images/iphone.jpg";
 
 function Newsletter() {
   return (
@@ -50,7 +50,7 @@ function Newsletter() {
           </Grid>
           <Grid item xs={12} md={5} sx={{ ml: "auto" }}>
             <MKBox position="relative">
-              <MKBox component="img" src={macbook} alt="macbook" width="100%" />
+              <MKBox component="img" borderRadius="8px" src={iphone} alt="iphone" width="100%" />
             </MKBox>
           </Grid>
         </Grid>

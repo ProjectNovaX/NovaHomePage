@@ -71,10 +71,11 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Screenshots of the main screens.
+                All the functionality you need.
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                All of the functionality you need to organise anyone.
+                See your upcmoing events, create news ones, respond to invitations. All from a fast
+                and easy to use UI.
               </MKTypography>
             </MKBox>
           </Grid>

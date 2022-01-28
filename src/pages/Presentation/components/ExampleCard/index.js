@@ -30,6 +30,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
       borderRadius="xl"
       shadow="lg"
       minHeight="10rem"
+      maxHeight="30rem"
       sx={{
         overflow: "hidden",
         transform: "perspective(999px) rotateX(0deg) translate3d(0, 0, 0)",
@@ -68,7 +69,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
           </svg>
         </MKBox>
       )}
-      <MKBox component="img" src={image} alt={name} width="50%" my="auto" opacity={0.9} />
+      <MKBox component="img" src={image} alt={name} width="100%" my="auto" opacity={0.9} />
     </MKBox>
   );
 
