@@ -9,6 +9,7 @@ Home page for marketing and distribution.
 ## Table of Contents
 
 - [File Structure](#file-structure)
+- [Useful Links](#useful-links)
 
 ## Terminal Commands
 
@@ -83,4 +84,5 @@ anon app
 
 ## Useful Links
 
-
+- React Template Docs [CreativeTim](https://www.creative-tim.com/learning-lab/react/overview/material-kit/https://theapplaunchpad.com/)
+- Material Design Components [MUI](https://mui.com/components/material-icons/?query=+)

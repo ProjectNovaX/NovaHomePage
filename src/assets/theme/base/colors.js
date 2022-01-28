@@ -59,9 +59,14 @@ export default {
   //   focus: "#5e79fd",
   // },
 
+  // info: {
+  //   main: "#27187E",
+  //   focus: "#3521AB",
+  // },
+
   info: {
-    main: "#27187E",
-    focus: "#3521AB",
+    main: "#8BE8CB",
+    focus: "#AAEED9",
   },
 
   success: {
@@ -117,11 +122,15 @@ export default {
     //   focus: "#5e79fd",
     // },
 
-    info: {
-      main: "#27187E",
-      focus: "#3521AB",
-    },
+    // info: {
+    //   main: "#27187E",
+    //   focus: "#3521AB",
+    // },
 
+    info: {
+      main: "#8BE8CB",
+      focus: "#AAEED9",
+    },
     success: {
       main: "#66BB6A",
       state: "#43A047",
@@ -226,9 +235,14 @@ export default {
     //   text: "#1A73E8",
     // },
 
+    // info: {
+    //   main: "#27187E",
+    //   focus: "#3521AB",
+    // },
+
     info: {
-      main: "#27187E",
-      focus: "#3521AB",
+      main: "#8BE8CB",
+      focus: "#AAEED9",
     },
 
     success: {

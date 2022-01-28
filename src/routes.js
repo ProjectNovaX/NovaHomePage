@@ -53,7 +53,7 @@ const routes = [
   {
     name: "contact",
     icon: <Icon>mail</Icon>,
-    route: "/pages/landing-pages/contact-us",
+    route: "/contact-us",
     component: <ContactUs />,
   },
 ];
