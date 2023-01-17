@@ -47,7 +47,7 @@ function Presentation() {
     <>
       <DefaultNavbar
         routes={routes}
-        brand="anon"
+        brand="tiso"
         action={{
           type: "external",
           route: "https://localhost:3000",

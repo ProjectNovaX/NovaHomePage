@@ -43,7 +43,7 @@ function AboutUs() {
   return (
     <>
       <DefaultNavbar
-        brand="Anon"
+        brand="Tiso"
         routes={routes}
         action={{
           type: "external",

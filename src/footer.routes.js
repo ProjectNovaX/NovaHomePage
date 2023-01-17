@@ -13,7 +13,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "anon",
+    name: "tiso",
     image: logoCT,
     route: "/",
   },
@@ -59,7 +59,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Anon App
+        Tiso App
       </MKTypography>
       .
     </MKTypography>

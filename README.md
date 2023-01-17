@@ -23,7 +23,7 @@ Home page for marketing and distribution.
 Within the download you'll find the following directories and files:
 
 ```
-anon app
+tiso app
     ├── public
     │   ├── favicon.png
     │   ├── index.html

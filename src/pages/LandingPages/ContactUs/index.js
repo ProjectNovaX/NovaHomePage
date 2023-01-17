@@ -39,7 +39,7 @@ function ContactUs() {
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
           routes={routes}
-          brand="anon"
+          brand="tiso"
           action={{
             type: "external",
             route: "https://localhost:3000",
@@ -96,8 +96,7 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions please email info@anonapp.com or contact using our contact
-                form.
+                Any questions email info@tiso.app
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autocomplete="off">
                 <Grid container spacing={3}>
