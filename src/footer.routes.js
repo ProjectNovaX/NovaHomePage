@@ -20,15 +20,15 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "https://twitter.com/",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "https://www.youtube.com/",
     },
   ],
   menus: [
@@ -43,8 +43,8 @@ export default {
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
+        { name: "terms & conditions", href: "https://www.tiso.app" },
+        { name: "privacy policy", href: "https://www.tiso.app" },
       ],
     },
   ],
@@ -53,7 +53,7 @@ export default {
       All rights reserved. Copyright &copy; {date}{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href="https://www.tiso.app"
         target="_blank"
         rel="noreferrer"
         variant="button"

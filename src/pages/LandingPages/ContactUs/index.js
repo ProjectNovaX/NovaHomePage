@@ -42,7 +42,7 @@ function ContactUs() {
           brand="tiso"
           action={{
             type: "external",
-            route: "https://localhost:3000",
+            route: "https://tiso.app",
             label: "free download",
             color: "primary",
           }}
@@ -96,7 +96,7 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                Any questions email info@tiso.app
+                Any questions about beta email us at info@tiso.app
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autocomplete="off">
                 <Grid container spacing={3}>
@@ -121,7 +121,7 @@ function ContactUs() {
                     <MKInput
                       variant="standard"
                       label="What can we help you?"
-                      placeholder="Describe your problem in at least 250 characters"
+                      placeholder="Describe your problem"
                       InputLabelProps={{ shrink: true }}
                       multiline
                       fullWidth

@@ -32,8 +32,8 @@ function Newsletter() {
     <MKBox component="section" pt={6} my={6}>
       <Container>
         <Grid container alignItems="center">
-          <Grid item sx={12} md={6} sx={{ ml: { xs: 0, lg: 3 }, mb: { xs: 12, md: 0 } }}>
-            <MKTypography variant="h4">Be the first to see the news</MKTypography>
+          <Grid item sx={12} md={6}>
+            <MKTypography variant="h4">Request accesss to the beta</MKTypography>
             <MKTypography variant="body2" color="text" mb={3}>
               Sign up for our beta release and information about upcoming release dates.
             </MKTypography>

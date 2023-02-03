@@ -57,13 +57,8 @@ function Information() {
               <RotatingCardBack
                 color="primary"
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
-                action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
-                }}
+                title="Anonymise Guestlist"
+                description="Don't know exaclty who you want to invite yet? Build guestlist piece by piece with anonymous mode"
               />
             </RotatingCard>
           </Grid>
@@ -74,7 +69,7 @@ function Information() {
                   color="primary"
                   icon="people"
                   title="Private Network"
-                  description="Connect and invite only those contacts in your phone. A guest list you can get on board with."
+                  description="Connect and invite only those contacts in your phone. A guestlist you can get on board with."
                 />
               </Grid>
               <Grid item xs={12} md={6}>

@@ -89,10 +89,10 @@ function AboutUs() {
                 },
               })}
             >
-              It&apos;s time to party. Get on it.
+              Make everything an event
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              Join the fastest growing community of people who like to see other people. In person.
+              Join the fastest growing network of people who like to see other people. In person.
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account

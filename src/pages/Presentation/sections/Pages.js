@@ -74,7 +74,7 @@ function Pages() {
                 All the functionality you need.
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                See your upcmoing events, create news ones, respond to invitations. All from a fast
+                See your upcoming events, create news ones, respond to invitations. All from a fast
                 and easy to use UI.
               </MKTypography>
             </MKBox>
