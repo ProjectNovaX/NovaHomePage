@@ -27,7 +27,7 @@ Coded by www.creative-tim.com
 const palette = {
   brightTurquoise: "#00ECC2",
   coral: "#FF7C52",
-  redOrange: "#FF4F1F",
+  redOrange: "#ff7f50",
 };
 
 const onBackground = "#ffffff";
@@ -59,8 +59,8 @@ export default {
   },
 
   primary: {
-    main: palette.brightTurquoise,
-    focus: palette.brightTurquoise,
+    main: palette.redOrange,
+    focus: palette.redOrange,
   },
 
   secondary: {

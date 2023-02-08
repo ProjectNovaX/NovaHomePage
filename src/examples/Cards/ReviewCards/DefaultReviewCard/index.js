@@ -121,7 +121,7 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
           display="block"
           variant={image ? "button" : "h6"}
           fontWeight="bold"
-          color={color === "transparent" || color === "light" ? "dark" : "white"}
+          color={color === "transparent" || color === "light" ? "white" : "white"}
           mb={0.5}
         >
           {name}

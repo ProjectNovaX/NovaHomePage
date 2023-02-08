@@ -33,7 +33,9 @@ function Newsletter() {
       <Container>
         <Grid container alignItems="center">
           <Grid item sx={12} md={6}>
-            <MKTypography variant="h4">Request accesss to the beta</MKTypography>
+            <MKTypography color="text" variant="h4">
+              Request accesss to the beta
+            </MKTypography>
             <MKTypography variant="body2" color="text" mb={3}>
               Sign up for our beta release and information about upcoming release dates.
             </MKTypography>

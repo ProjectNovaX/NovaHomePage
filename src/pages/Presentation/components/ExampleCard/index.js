@@ -85,7 +85,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
       {name || count > 0 ? (
         <MKBox mt={1} ml={1} lineHeight={1}>
           {name && (
-            <MKTypography variant="h6" fontWeight="bold">
+            <MKTypography variant="h6" color="primary" fontWeight="bold">
               {name}
             </MKTypography>
           )}

@@ -37,13 +37,15 @@ function Information() {
           justifyContent="center"
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography variant="h2">Loved by users</MKTypography>
+          <MKTypography variant="h2" color="text">
+            Loved by users
+          </MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 8 }}>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               name="Nick Willever"
-              date="1 day ago"
+              date="4 days ago"
               review="Game changer"
               rating={5}
             />
@@ -51,7 +53,7 @@ function Information() {
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
               color="primary"
-              name="Shailesh Kushwaha"
+              name="Harry Clancy"
               date="1 week ago"
               review="Love the app, UI is slick. Can have my party now"
               rating={5}

@@ -196,7 +196,7 @@ function Presentation() {
         sx={{ backgroundColor: ({ palette: { black } }) => rgba(black.main, 0.9) }}
         pt={6}
         px={1}
-        mt={-3}
+        mt={-2}
       >
         <DefaultFooter content={footerRoutes} />
       </MKBox>

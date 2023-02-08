@@ -25,8 +25,10 @@ import MKTypography from "components/MKTypography";
 
 // Data
 import data from "pages/Presentation/sections/data/pagesData";
+import { useTheme } from "@mui/material/styles";
 
 function Pages() {
+  const theme = useTheme();
   const renderData = data.map(({ image, name }) => (
     <Grid item xs={12} md={6} sx={{ mb: { xs: 3, lg: 0 } }} key={name}>
       <ExampleCard image={image} name={name} display="grid" minHeight="auto" />
@@ -50,9 +52,9 @@ function Pages() {
             color="info"
             badgeContent="easy to start"
             container
-            sx={{ mb: 2 }}
+            sx={{ mb: 2, color: theme.palette.secondary.main }}
           />
-          <MKTypography variant="h2" fontWeight="bold">
+          <MKTypography variant="h2" color="text" fontWeight="bold">
             Quickly set up an event
           </MKTypography>
           <MKTypography variant="body1" color="text">
@@ -70,10 +72,10 @@ function Pages() {
           </Grid>
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
-              <MKTypography variant="h3" fontWeight="bold" mb={1}>
+              <MKTypography variant="h3" color="text" fontWeight="bold" mb={1}>
                 All the functionality you need.
               </MKTypography>
-              <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
+              <MKTypography variant="body2" color="text" fontWeight="regular" mb={1} pr={2}>
                 See your upcoming events, create news ones, respond to invitations. All from a fast
                 and easy to use UI.
               </MKTypography>
