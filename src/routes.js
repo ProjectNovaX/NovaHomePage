@@ -41,7 +41,7 @@ import Icon from "@mui/material/Icon";
 
 // Pages
 // import AboutUs from "layouts/pages/landing-pages/about-us";
-import ContactUs from "layouts/pages/landing-pages/contact-us";
+// import ContactUs from "layouts/pages/landing-pages/contact-us";
 
 const routes = [
   // {
@@ -50,11 +50,17 @@ const routes = [
   //   route: "/pages/landing-pages/about-us",
   //   component: <AboutUs />,
   // },
+  // {
+  //   name: "contact",
+  //   icon: <Icon>mail</Icon>,
+  //   route: "/contact-us",
+  //   component: <ContactUs />,
+  // },
   {
-    name: "contact",
+    name: "info@tiso.app",
     icon: <Icon>mail</Icon>,
-    route: "/contact-us",
-    component: <ContactUs />,
+    // route: "/",
+    // component: <ContactUs />,
   },
 ];
 

@@ -22,7 +22,7 @@ import Card from "@mui/material/Card";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
-import MKButton from "components/MKButton";
+// import MKButton from "components/MKButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -40,6 +40,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/concert.jpg";
+import rgba from "assets/theme/functions/rgba";
 // flatpak run org.gimp.GIMP
 
 function Presentation() {
@@ -47,27 +48,29 @@ function Presentation() {
     <>
       <DefaultNavbar
         routes={routes}
-        brand="tiso"
+        brand="TISO"
         action={{
           type: "external",
-          route: "https://localhost:3000",
+          route: "https://tiso.app",
           label: "download",
           color: "info",
         }}
         transparent
         light
+        sx={{ backgroundColor: ({ palette: { black } }) => rgba(black.main, 0.9) }}
       />
       <MKBox
         minHeight="75vh"
         width="100%"
         sx={{
-          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+          backgroundImage: ({ functions: { linearGradient }, palette: { gradients } }) =>
             `${linearGradient(
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
             )}, url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundColor: "black",
           display: "grid",
           placeItems: "center",
         }}
@@ -95,10 +98,10 @@ function Presentation() {
               Make everything an event
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              Join the fastest growing network of people who like to see other people. Not on a
+              Join the fastest growing network of people who like to see other people. Not on
               screen.
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+            {/* <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
             </MKButton>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
@@ -117,17 +120,17 @@ function Presentation() {
               <MKTypography component="a" variant="body1" color="white" href="#">
                 <i className="fab fa-google-plus" />
               </MKTypography>
-            </MKBox>
+            </MKBox> */}
           </Grid>
         </Container>
       </MKBox>
       <Card
         sx={{
           p: 2,
-          mx: { xs: 2, lg: 3 },
+          // mx: { xs: 2, lg: 3 },
           mt: -8,
-          mb: 4,
-          // backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
+          mb: 0,
+          backgroundColor: ({ palette: { black } }) => rgba(black.main, 0.8),
           // backdropFilter: "saturate(200%) blur(30px)",
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
@@ -189,7 +192,12 @@ function Presentation() {
           </Container>
         </MKBox>
       </Card>
-      <MKBox pt={6} px={1} mt={6}>
+      <MKBox
+        sx={{ backgroundColor: ({ palette: { black } }) => rgba(black.main, 0.9) }}
+        pt={6}
+        px={1}
+        mt={-3}
+      >
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>

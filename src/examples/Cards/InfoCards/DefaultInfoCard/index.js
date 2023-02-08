@@ -41,6 +41,7 @@ function DefaultInfoCard({ color, icon, title, description, direction, small }) 
       )}
       <MKTypography
         display="block"
+        color="text"
         variant="5"
         fontWeight="bold"
         mt={direction === "center" ? 1 : 2}

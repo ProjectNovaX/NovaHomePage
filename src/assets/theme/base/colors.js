@@ -14,10 +14,23 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base colors for the Material Kit 2 React.
- * You can add new color using this file.
- * You can customized the colors for the entire Material Kit 2 React using thie file.
+  primary: {
+    main: "#ff7f50",
+    focus: "#ff7f50",
+  },
+  secondary: {
+    main: "#7b809a",
+    focus: "#8f93a9",
+  }, 
  */
+
+const palette = {
+  brightTurquoise: "#00ECC2",
+  coral: "#FF7C52",
+  redOrange: "#FF4F1F",
+};
+
+const onBackground = "#ffffff";
 
 export default {
   background: {
@@ -25,7 +38,8 @@ export default {
   },
 
   text: {
-    main: "#7b809a",
+    // main: "#7b809a",
+    main: onBackground,
     focus: "#7b809a",
   },
 
@@ -45,13 +59,13 @@ export default {
   },
 
   primary: {
-    main: "#ff7f50",
-    focus: "#ff7f50",
+    main: palette.brightTurquoise,
+    focus: palette.brightTurquoise,
   },
 
   secondary: {
-    main: "#7b809a",
-    focus: "#8f93a9",
+    main: palette.brightTurquoise,
+    focus: palette.brightTurquoise,
   },
 
   // info: {
