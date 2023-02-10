@@ -1,5 +1,5 @@
 import event from "assets/images/ss-event.PNG";
-import dash from "assets/images/ss-dash.PNG";
+import dash from "assets/images/ss-dash.png";
 import messaging from "assets/images/ss-messaging.PNG";
 import dayView from "assets/images/ss-dayView.PNG";
 
