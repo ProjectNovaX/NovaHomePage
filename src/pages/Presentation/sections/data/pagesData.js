@@ -1,6 +1,7 @@
 // import dash from "assets/images/ss-dash.png";
 // import event from "assets/images/ss-event.png";
 import concert from "assets/images/concert.jpg";
+import pencil from "assets/images/pencil.jpeg";
 // import calendar from "assets/images/calendar.png";
 
 // const imagesPrefix = "src/assets/images";
@@ -11,7 +12,7 @@ export default [
     name: "Dashboard",
   },
   {
-    image: undefined,
+    image: pencil,
     name: "Calendar",
   },
   {
