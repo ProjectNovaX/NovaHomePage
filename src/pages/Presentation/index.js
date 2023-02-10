@@ -95,7 +95,7 @@ function Presentation() {
                 },
               })}
             >
-              Make everything an an
+              Make everything an event
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               Join the fastest growing network of people who like to see other people. Not on
