@@ -20,7 +20,7 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/",
+      link: "https://facebook.com/",
     },
     {
       icon: <TwitterIcon />,
@@ -28,7 +28,7 @@ export default {
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/",
+      link: "https://youtube.com/",
     },
   ],
   menus: [
@@ -38,13 +38,13 @@ export default {
     // },
     {
       name: "help & support",
-      items: [{ name: "contact us", href: "https://localhost:3000/contact-us" }],
+      items: [{ name: "contact us", href: "https://tiso.app" }],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.tiso.app" },
-        { name: "privacy policy", href: "https://www.tiso.app" },
+        { name: "terms & conditions", href: "https://tiso.app" },
+        { name: "privacy policy", href: "https://tiso.app" },
       ],
     },
   ],
@@ -53,7 +53,7 @@ export default {
       All rights reserved. Copyright &copy; {date}{" "}
       <MKTypography
         component="a"
-        href="https://www.tiso.app"
+        href="https://tiso.app"
         target="_blank"
         rel="noreferrer"
         variant="button"
