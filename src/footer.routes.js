@@ -44,7 +44,7 @@ export default {
       name: "legal",
       items: [
         { name: "terms & conditions", href: "https://tiso.app" },
-        { name: "privacy policy", href: "https://tiso.app" },
+        { name: "privacy policy", href: "https://tiso.app/privacy" },
       ],
     },
   ],

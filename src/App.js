@@ -28,6 +28,7 @@ import Presentation from "layouts/pages/presentation";
 
 // Material Kit 2 React routes
 import routes from "routes";
+import PrivacyPage from "layouts/pages/landing-pages/privacy";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -57,6 +58,7 @@ export default function App() {
       <Routes>
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </ThemeProvider>
